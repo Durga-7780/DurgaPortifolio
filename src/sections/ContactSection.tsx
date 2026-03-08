@@ -10,7 +10,8 @@ export const ContactSection = () => {
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const form = new FormData(event.currentTarget);
+    const formElement = event.currentTarget;
+    const form = new FormData(formElement);
 
     setStatus("sending");
     setStatusMessage("Sending your message...");
@@ -35,7 +36,7 @@ export const ContactSection = () => {
 
       setStatus("success");
       setStatusMessage("Message sent successfully.");
-      event.currentTarget.reset();
+      formElement.reset();
     } catch (error) {
       setStatus("error");
       setStatusMessage(error instanceof Error ? error.message : "Message delivery failed.");
