@@ -6,12 +6,14 @@ import { portfolioData } from "@/utils/portfolioData";
 
 export const ContactSection = () => {
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+  const [statusMessage, setStatusMessage] = useState("Send a message and I will get back to you.");
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
 
     setStatus("sending");
+    setStatusMessage("Sending your message...");
 
     try {
       const response = await fetch("/api/contact", {
@@ -27,13 +29,16 @@ export const ContactSection = () => {
       });
 
       if (!response.ok) {
-        throw new Error("Failed to send message");
+        const data = await response.json().catch(() => ({ error: "Failed to send message" }));
+        throw new Error(data.error || "Failed to send message");
       }
 
       setStatus("success");
+      setStatusMessage("Message sent successfully.");
       event.currentTarget.reset();
-    } catch {
+    } catch (error) {
       setStatus("error");
+      setStatusMessage(error instanceof Error ? error.message : "Message delivery failed.");
     }
   };
 
@@ -85,10 +90,7 @@ export const ContactSection = () => {
             <button className="button-primary" disabled={status === "sending"} type="submit">
               {status === "sending" ? "Sending..." : "Send Message"}
             </button>
-            <p className="form-status">
-              {status === "success" && "Message sent. Replace placeholders and connect your email provider next."}
-              {status === "error" && "The UI is ready, but `/api/contact` still needs your live email configuration."}
-              </p>
+            <p className="form-status">{statusMessage}</p>
           </form>
         </Reveal>
       </div>
