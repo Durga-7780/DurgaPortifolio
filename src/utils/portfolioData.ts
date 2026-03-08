@@ -132,7 +132,7 @@ export const projects = [
     description:
       "HR attendance platform with analytics, privacy-aware employee insights, and an AI assistant for operational queries, designed for deployment on Render.",
     stack: ["Python", "FastAPI", "Render", "Analytics", "AI Assistant"],
-    github: "https://github.com/your-username/hr-attendance-ai",
+    github: "https://github.com/Durga-7780/Saigo",
     demo: "https://saigo.onrender.com",
   },
 ];
