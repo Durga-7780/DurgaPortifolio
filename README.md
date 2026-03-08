@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+# AI Engineer Portfolio
 
-## Project info
+Modern portfolio for a Python & AI Engineer focused on LLM systems, FastAPI backends, LangChain workflows, and production AI infrastructure.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Stack
 
-## How can I edit this code?
+- React + Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React
 
-There are several ways of editing your application.
+## Run locally
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Customize content
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Update shared portfolio content in:
 
-**Use GitHub Codespaces**
+- `src/utils/portfolioData.ts`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+That file controls:
 
-## What technologies are used for this project?
+- name, email, phone, links
+- hero roles
+- skills
+- projects
+- experience
+- strengths
+- future vision text
 
-This project is built with:
+## Resume
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Place your resume PDF here:
 
-## How can I deploy this project?
+- `public/resume/durgasaiprasadp.pdf`
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+The hero button is already wired to download that file.
 
-## Can I connect a custom domain to my Lovable project?
+## Profile Photo
 
-Yes, you can!
+Place your profile photo here:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- `public/profile/durgasaiprasadp.jpg`
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+The hero section is already wired to display that image.
+
+## Contact form
+
+The contact form submits to:
+
+- `/api/contact`
+
+A serverless example is included in:
+
+- `api/contact.ts`
+
+To receive email alerts, configure:
+
+- `RESEND_API_KEY`
+- `CONTACT_TO_EMAIL`
+- `CONTACT_FROM_EMAIL`
+
+## Notes
+
+- `package-lock.json` may still contain older dependency history until you run `npm install` again.

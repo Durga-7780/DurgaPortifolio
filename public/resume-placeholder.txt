@@ -1,0 +1,8 @@
+Replace this file with your real resume PDF later.
+
+Suggested filename:
+resume.pdf
+
+Current behavior:
+- The hero section download button points to /resume-placeholder.txt
+- Replace the file and update the href if you want a PDF instead
