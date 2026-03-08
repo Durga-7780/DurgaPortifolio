@@ -54,15 +54,22 @@ The contact form submits to:
 
 - `/api/contact`
 
-A serverless example is included in:
+This project is configured for a Render web service. The backend route is handled by:
 
-- `api/contact.ts`
+- `server.mjs`
 
-To receive email alerts, configure:
+To receive email alerts on Render, configure:
 
 - `RESEND_API_KEY`
 - `CONTACT_TO_EMAIL`
 - `CONTACT_FROM_EMAIL`
+
+Render settings:
+
+- Build Command: `npm install && npm run build`
+- Start Command: `npm start`
+
+Do not deploy this as a static site if you want the contact form to work.
 
 ## Notes
 

@@ -48,7 +48,7 @@ export const portfolioData = {
 
 export const metrics = [
   { label: "Experience", value: "1.5+ Years" },
-  { label: "Focus", value: "LLM Systems" },
+  { label: "Focus", value: "AI Integration" },
   { label: "Core Stack", value: "Python, FastAPI" },
 ];
 
@@ -122,7 +122,7 @@ export const projects = [
   {
     title: "AI Document Assistant",
     description:
-      "AI-powered PDF summarization tool with text extraction, embeddings, vector retrieval, and Groq-powered RAG responses for summaries, Q&A, quizzes, and predictive follow-up prompts.",
+      "AI-powered document analysis system using PDF text extraction, embeddings, ChromaDB vector search, and Groq-based RAG responses for summaries, Q&A, and follow-up insights.",
     stack: ["Python", "Groq", "ChromaDB", "RAG", "PDF Processing"],
     github: "https://huggingface.co/spaces/Durga-7780/AiChatbot/tree/main",
     demo: "https://huggingface.co/spaces/Durga-7780/AiChatbot",
@@ -150,7 +150,7 @@ export const education = [{
   cgpa: "8.0 / 10",
   duration: "2021 - 2023",
 },{
-  degree: "Bachelors of Computer Science (B.sc Statastics)",
+  degree: "Bachelor of Science (B.Sc Statistics)",
   school: "B V Raju College - Bhimavaram",
   cgpa: "8.2 / 10",
   duration: "2018 - 2021",

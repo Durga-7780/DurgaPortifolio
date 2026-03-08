@@ -4,7 +4,7 @@ export const FooterSection = () => {
   return (
     <footer className="site-footer">
       <div className="container footer-row">
-        <p>© 2026 durga sai prasad. Built for AI engineering roles.</p>
+        <p>© 2026 Durga Sai Prasad. AI & Backend Engineer.</p>
         <div className="footer-socials">
           {socials.map((item) => {
             const Icon = item.icon;

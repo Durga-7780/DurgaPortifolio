@@ -7,9 +7,9 @@ export const StrengthsSection = () => {
     <section className="section" id="strengths">
       <div className="container">
         <SectionHeading
-          description="Core abilities that support problem solving, AI system development, and effective collaboration in engineering teams."
+          description="Key strengths that help me solve complex problems, build AI systems, and collaborate effectively in engineering teams."
           eyebrow="Strengths"
-          title="Engineering Mindset Behind My Work"
+          title="How I Approach Engineering Problems"
         />
 
         <div className="strength-grid">

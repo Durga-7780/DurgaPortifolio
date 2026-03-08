@@ -8,9 +8,9 @@ export const ExperienceSection = () => {
     <section className="section" id="experience">
       <div className="container">
         <SectionHeading
-          description="Recent work focused on backend platform engineering, low-latency streaming, and AI integration in production systems."
+          description="Experience in API development, workflow orchestration, and low-latency AI integrations for production systems."
           eyebrow="Professional Experience"
-          title="Delivery across platform workflows, reporting, and real-time AI systems"
+          title="Building scalable backend platforms and real-time AI systems"
         />
 
         <div className="timeline">

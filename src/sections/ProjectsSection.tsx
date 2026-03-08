@@ -8,9 +8,9 @@ export const ProjectsSection = () => {
     <section className="section" id="projects">
       <div className="container">
         <SectionHeading
-          description="Selected work centered on retrieval pipelines, applied AI workflows, and business-facing backend systems."
+          description="Selected projects focused on RAG pipelines, applied AI workflows, and backend systems."
           eyebrow="Personal Projects"
-          title="Projects that turn AI workflows into usable products"
+          title="AI projects built with real-world workflows and production-ready systems"
         />
 
         <div className="project-grid">

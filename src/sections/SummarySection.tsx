@@ -14,9 +14,9 @@ export const SummarySection = () => {
     <section className="section" id="summary">
       <div className="container">
         <SectionHeading
-          description="A concise overview of the engineering focus, production mindset, and delivery experience behind this portfolio."
+          description="Overview of my experience building AI-powered backend systems and production-ready workflows."
           eyebrow="Professional Summary"
-          title="Building dependable AI products from backend to orchestration"
+          title="Developing AI-powered backend systems and workflows"
         />
 
         <Reveal className="glass-card summary-card">

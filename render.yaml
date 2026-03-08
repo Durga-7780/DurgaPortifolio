@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ai-engineer-portfolio
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    autoDeploy: true

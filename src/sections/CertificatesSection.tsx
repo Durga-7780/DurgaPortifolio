@@ -8,9 +8,9 @@ export const CertificatesSection = () => {
     <section className="section" id="certificates">
       <div className="container">
         <SectionHeading
-          description="IBM credentials earned through Coursera, presented as professional learning milestones that support the AI and backend work in this portfolio."
+          description="IBM certifications completed through Coursera, highlighting my learning in generative AI and supporting my work in AI and backend system development."
           eyebrow="Certificates"
-          title="IBM certifications earned through Coursera"
+          title="IBM certifications"
         />
 
         <div className="certificate-grid">

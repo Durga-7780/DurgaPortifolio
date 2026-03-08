@@ -8,9 +8,9 @@ export const EducationSection = () => {
     <section className="section" id="education">
       <div className="container">
         <SectionHeading
-          description="Academic foundation in computer applications supporting my work in AI and backend systems."
+          description="My academic studies provided the foundation for my work in software development, AI, and backend systems."
           eyebrow="Education"
-          title="Formal foundation in computer applications"
+          title="Academic background in computer applications"
         />
 
         <div className="grid gap-6">

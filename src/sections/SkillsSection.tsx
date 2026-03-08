@@ -8,9 +8,9 @@ export const SkillsSection = () => {
     <section className="section" id="skills">
       <div className="container">
         <SectionHeading
-          description="Skills are driven by a shared data file, so adding or removing technologies later only requires editing one array."
+          description="Technologies and tools I use to build AI-powered applications, backend systems, and production-ready APIs."
           eyebrow="Technical Skills"
-          title="A modular stack for LLM systems, APIs, and production delivery"
+          title="Technologies I Use to Build AI Systems"
         />
 
         <div className="skills-grid">
