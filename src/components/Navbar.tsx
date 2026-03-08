@@ -21,7 +21,7 @@ export const Navbar = () => {
       <div className="container flex items-center justify-between gap-6">
         <a className="brand-mark" href="#hero" onClick={closeMenu}>
           <span className="brand-dot" />
-          <span>Software Engineer (Python & AI)</span>
+          <span>Durga Sai Prasad Pragada (Software Engineer)</span>
         </a>
 
         <nav className="hidden items-center gap-6 md:flex">
