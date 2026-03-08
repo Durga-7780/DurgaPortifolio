@@ -30,7 +30,7 @@ export const HeroSection = () => {
               <span className="typing-caret" />
             </div>
             <p className="hero-copy">
-              <strong>{portfolioData.name}</strong> designs AI-first backend systems with Python,
+              Designed AI backend systems with Python,
               FastAPI, LangChain, streaming workflows, and production-ready integrations.
             </p>
           </div>
