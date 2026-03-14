@@ -75,15 +75,15 @@
   }
 
   .section {
-    @apply relative py-20 md:py-20;
+    @apply relative py-14 md:py-10;
   }
 
   .section-contact {
-    @apply pb-24;
+    @apply pb-16 md:pb-14;
   }
 
   .section-heading {
-    @apply mb-12 max-w-3xl space-y-4;
+    @apply mb-8 max-w-3xl space-y-3;
   }
 
   .section-eyebrow {

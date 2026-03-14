@@ -16,9 +16,14 @@ export const SkillsSection = () => {
         <div className="skills-grid">
           {skillCategories.map((category, index) => {
             const Icon = category.icon;
+            const isLastOddItem = skillCategories.length % 2 !== 0 && index === skillCategories.length - 1;
 
             return (
-              <Reveal key={category.title} delay={index * 0.08}>
+              <Reveal
+                key={category.title}
+                className={isLastOddItem ? "md:col-span-2" : undefined}
+                delay={index * 0.08}
+              >
                 <div className="glass-card skill-card">
                   <div className="skill-card-header">
                     <div className="skill-icon">
