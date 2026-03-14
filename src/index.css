@@ -75,7 +75,7 @@
   }
 
   .section {
-    @apply relative py-20 md:py-28;
+    @apply relative py-20 md:py-20;
   }
 
   .section-contact {
