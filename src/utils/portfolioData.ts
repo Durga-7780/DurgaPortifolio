@@ -48,7 +48,7 @@ export const portfolioData = {
 };
 
 export const metrics = [
-  { label: "Experience", value: "1.5+ Years" },
+  { label: "Experience", value: "2 Years" },
   { label: "Focus", value: "AI Integration" },
   { label: "Core Stack", value: "Python, FastAPI" },
 ];
