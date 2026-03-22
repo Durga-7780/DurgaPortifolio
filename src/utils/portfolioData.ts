@@ -26,6 +26,7 @@ export const navigationItems = [
 
 export const heroRoles = [
   "Python Developer ",
+  "Gen Ai Developer ",
   "AI Backend Developer",
   "FastAPI Developer",
   "Software Engineer",
@@ -41,7 +42,7 @@ export const portfolioData = {
   linkedin: "https://www.linkedin.com/in/pragadadurgasaiprasad",
   github: "https://github.com/Durga-7780",
   summary:
-    "Python & AI Engineer with 1.5 years of experience developing AI-powered backend applications and LLM-based solutions. Skilled in Python, FastAPI, LangChain, and LLM integration, with hands-on experience building AI pipelines using STT and TTS technologies. Experienced in designing scalable REST APIs, AI workflows, and call analytics systems for real-world applications. Strong understanding of AI system integration, backend architecture, and production deployment.",
+    "Python & AI Engineer with around 2 years of experience developing AI-powered backend applications and LLM-based solutions. Skilled in Python, FastAPI, LangChain, and LLM integration, with hands-on experience building AI pipelines using STT and TTS technologies. Experienced in designing scalable REST APIs, AI workflows, and call analytics systems for real-world applications. Strong understanding of AI system integration, backend architecture, and production deployment.",
   futureVision:
     "I am interested in building intelligent CCTV systems powered by AI that can automatically detect suspicious activities, theft attempts, or unusual behaviour in real time. Traditional CCTV systems only record footage and require manual monitoring, which often delays response to security incidents.My vision is to develop a smart surveillance platform that analyzes live video streams using computer vision and AI models to identify events, generate alerts, and provide actionable insights. This approach can transform passive CCTV cameras into proactive security systems for retail stores, offices, and public spaces."
 };
@@ -92,7 +93,7 @@ export const experienceItems = [
   {
     company: "Deepija Telecom Private Limited",
     location: "Hyderabad, India",
-    duration: "Sept 2024 - Present",
+    duration: "July 2024 - Present",
     projects: [
       {
         title: "ConVox Platform Management System",
