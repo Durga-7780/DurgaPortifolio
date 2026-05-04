@@ -6,7 +6,7 @@ import { portfolioData } from "@/utils/portfolioData";
 const highlights = [
   { title: "AI & LLM Workflows", icon: BrainCircuit },
   { title: "Backend Architecture", icon: ServerCog },
-  { title: "Cloud & DevOps", icon: Cloud },
+  { title: "Cloud", icon: Cloud },
 ];
 
 export const SummarySection = () => {
@@ -20,7 +20,7 @@ export const SummarySection = () => {
         />
 
         <Reveal className="glass-card summary-card">
-          <p>{portfolioData.summary}</p>
+          <p style={{ whiteSpace: "pre-wrap" }}>{portfolioData.summary}</p>
           <div className="highlight-row">
             {highlights.map((item) => {
               const Icon = item.icon;

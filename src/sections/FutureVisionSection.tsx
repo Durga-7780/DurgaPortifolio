@@ -24,7 +24,7 @@ export const FutureVisionSection = () => {
                   <span>Future Vision</span>
                 </div>
                 <h3>AI-Powered Smart CCTV Surveillance System</h3>
-                <p>{portfolioData.futureVision}</p>
+                <p style={{ whiteSpace: "pre-wrap" }}>{portfolioData.futureVision}</p>
               </div>
 
               <div className="vision-visual-shell">
