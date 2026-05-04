@@ -1,12 +1,12 @@
-import { BrainCircuit, Cpu, Workflow } from "lucide-react";
+import { BrainCircuit, ServerCog, Cloud } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { portfolioData } from "@/utils/portfolioData";
 
 const highlights = [
-  { title: "LLM integration", icon: BrainCircuit },
-  { title: "Backend architecture", icon: Cpu },
-  { title: "AI workflow design", icon: Workflow },
+  { title: "AI & LLM Workflows", icon: BrainCircuit },
+  { title: "Backend Architecture", icon: ServerCog },
+  { title: "Cloud & DevOps", icon: Cloud },
 ];
 
 export const SummarySection = () => {
