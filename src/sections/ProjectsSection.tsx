@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, Globe } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { projects } from "@/utils/portfolioData";
@@ -20,12 +20,22 @@ export const ProjectsSection = () => {
                 <div className="project-topline">
                   <span>Featured Project</span>
                   <div className="project-links">
-                    <a aria-label={`${project.title} GitHub`} href={project.github} rel="noreferrer" target="_blank">
-                      <Github size={18} />
-                    </a>
-                    <a aria-label={`${project.title} demo`} href={project.demo} rel="noreferrer" target="_blank">
-                      <ExternalLink size={18} />
-                    </a>
+                    {project.github !== "#" && (
+                      <a aria-label={`${project.title} GitHub`} href={project.github} rel="noreferrer" target="_blank">
+                        <Github size={18} />
+                      </a>
+                    )}
+                    {project.demo !== "#" && (
+                      <a aria-label={`${project.title} demo`} href={project.demo} rel="noreferrer" target="_blank">
+                        <ExternalLink size={18} />
+                      </a>
+                    )}
+                    {/* @ts-ignore - webpage might not exist on all projects */}
+                    {project.webpage && (
+                      <a aria-label={`${project.title} webpage`} href={(project as any).webpage} rel="noreferrer" target="_blank">
+                        <Globe size={18} />
+                      </a>
+                    )}
                   </div>
                 </div>
                 <h3>{project.title}</h3>
@@ -38,14 +48,25 @@ export const ProjectsSection = () => {
                   ))}
                 </div>
                 <div className="project-actions">
-                  <a className="button-secondary" href={project.github} rel="noreferrer" target="_blank">
-                    <Github size={18} />
-                    GitHub
-                  </a>
-                  <a className="button-ghost" href={project.demo} rel="noreferrer" target="_blank">
-                    <ExternalLink size={18} />
-                    Live Demo
-                  </a>
+                  {project.github !== "#" && (
+                    <a className="button-secondary" href={project.github} rel="noreferrer" target="_blank">
+                      <Github size={18} />
+                      GitHub
+                    </a>
+                  )}
+                  {project.demo !== "#" && (
+                    <a className="button-ghost" href={project.demo} rel="noreferrer" target="_blank">
+                      <ExternalLink size={18} />
+                      Live Demo
+                    </a>
+                  )}
+                  {/* @ts-ignore - webpage might not exist on all projects */}
+                  {project.webpage && (
+                    <a className="button-ghost" href={(project as any).webpage} rel="noreferrer" target="_blank">
+                      <Globe size={18} />
+                      Website
+                    </a>
+                  )}
                 </div>
               </article>
             </Reveal>
