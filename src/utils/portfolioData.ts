@@ -98,12 +98,11 @@ export const skillCategories = [
     skills: ["AWS (EC2, S3 – basic usage)", "Render (Deployment)", "Docker (Basic)"],
   },
   {
-    title: "DevOps & Tools",
+    title: "Tools",
     icon: Wrench,
     skills: [
       "Git, GitHub, GitLab",
-      "CI/CD (GitHub Actions – basic)",
-      "Linux (Basic commands & server handling)",
+      "Linux",
     ],
   },
   {
@@ -155,7 +154,8 @@ export const projects = [
       "A centralized server platform for creating customizable prompt and RAG-based voicebots and chatbots. Features LiveKit SIP support, low-level latency optimization, multi-language/multi-voice capabilities, and built-in Quality Analysis for real-time interactions.",
     stack: ["Python", "FastAPI", "LiveKit SIP", "RAG", "LLMs", "TTS/STT"],
     github: "#",
-    demo: "#",
+    demo: "https://natvoice.store",
+    webpage: "https://natvoice.onrender.com",
   },
   {
     title: "AI Document Assistant",
@@ -187,7 +187,7 @@ export const education = [{
   school: "B V Raju College - Bhimavaram",
   cgpa: "8.0 / 10",
   duration: "2021 - 2023",
-},{
+}, {
   degree: "Bachelor of Science (B.Sc Statistics)",
   school: "B V Raju College - Bhimavaram",
   cgpa: "8.2 / 10",
@@ -197,17 +197,17 @@ export const education = [{
 
 export const certificates = [
   {
-  title: "Prompt Engineering Basics",
-  issuer: "IBM via Coursera",
-  description: "Introduces prompt engineering techniques for working with Large Language Models (LLMs) and Generative AI, focusing on prompt design, context structuring, and strategies to guide models in generating accurate and relevant responses.",
-  credentialUrl: "https://www.coursera.org/account/accomplishments/verify/6MV88DTVHX9V",
-},
-{
-  title: "Generative AI: Introduction and Applications",
-  issuer: "IBM via Coursera",
-  description: "Learned the fundamentals of generative AI, including how it differs from discriminative AI, its real-world capabilities, and applications across multiple industries. Explored common generative AI models and tools used for generating text, code, images, audio, and video, along with practical insights into how these technologies are applied in modern AI solutions.",
-  credentialUrl: "https://www.coursera.org/account/accomplishments/verify/86QLM9YIUX2T",
-}
+    title: "Prompt Engineering Basics",
+    issuer: "IBM via Coursera",
+    description: "Introduces prompt engineering techniques for working with Large Language Models (LLMs) and Generative AI, focusing on prompt design, context structuring, and strategies to guide models in generating accurate and relevant responses.",
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/6MV88DTVHX9V",
+  },
+  {
+    title: "Generative AI: Introduction and Applications",
+    issuer: "IBM via Coursera",
+    description: "Learned the fundamentals of generative AI, including how it differs from discriminative AI, its real-world capabilities, and applications across multiple industries. Explored common generative AI models and tools used for generating text, code, images, audio, and video, along with practical insights into how these technologies are applied in modern AI solutions.",
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/86QLM9YIUX2T",
+  }
 ];
 
 export const socials = [
