@@ -46,7 +46,7 @@ export const portfolioData = {
   linkedin: "https://www.linkedin.com/in/pragadadurgasaiprasad",
   github: "https://github.com/Durga-7780",
   summary:
-    "Python & AI Engineer with ~2 years of experience building scalable backend systems and AI-driven applications. Proficient in Python (Core, OOP, Async) and FastAPI for developing high-performance REST APIs using microservices architecture.\n\nExperienced in LLM integration (OpenAI, Groq), RAG, LangChain, and real-time STT/TTS pipelines. Skilled in MySQL, Redis, and deployment using Docker, Linux, and AWS.",
+    "Python & AI Engineer with around 2 years of experience building scalable backend systems and AI-driven applications. Proficient in Python (Core, OOP, Async) and FastAPI for developing high-performance REST APIs using microservices architecture.\n\nExperienced in LLM integration (OpenAI, Groq), RAG, LangChain, and real-time STT/TTS pipelines. Skilled in MySQL, Redis, and deployment using Docker, Linux, and AWS.",
   futureVision:
     "I am interested in building intelligent CCTV systems powered by AI that can automatically detect suspicious activities, theft attempts, or unusual behaviour in real time.\n\nTraditional CCTV systems only record footage and require manual monitoring, which often delays response to security incidents.\n\nMy vision is to develop a smart surveillance platform that analyzes live video streams using computer vision and AI models to identify events, generate alerts, and provide actionable insights. This approach can transform passive CCTV cameras into proactive security systems for retail stores, offices, and public spaces."
 };
