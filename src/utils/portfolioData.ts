@@ -12,6 +12,10 @@ import {
   Sparkles,
   Speech,
   Users,
+  Cloud,
+  Wrench,
+  Network,
+  Layout,
 } from "lucide-react";
 
 export const navigationItems = [
@@ -57,35 +61,60 @@ export const skillCategories = [
   {
     title: "Programming",
     icon: Layers3,
-    skills: ["Python (Core, OOP, Async)"],
+    skills: ["Python (Core, OOP, Async Programming)"],
   },
   {
-    title: "AI / ML",
-    icon: BrainCircuit,
+    title: "Backend Development",
+    icon: ServerCog,
     skills: [
-      "LLMs (OpenAI, Groq)",
-      "Prompt Engineering",
-      "NLP",
-      "Speech-to-Text (STT)",
-      "Text-to-Speech (TTS)",
-      "LangChain",
-      "RAG",
+      "FastAPI",
+      "REST API Development",
+      "Authentication & Authorization (JWT, OAuth basics)",
+      "File Upload & Processing",
+      "API Design & Integration",
     ],
   },
   {
-    title: "Backend",
-    icon: ServerCog,
-    skills: ["FastAPI", "REST API Development", "JWT Authentication", "File Upload & Processing"],
+    title: "AI / Machine Learning",
+    icon: BrainCircuit,
+    skills: [
+      "Large Language Models (OpenAI, Groq)",
+      "Prompt Engineering",
+      "Natural Language Processing (NLP)",
+      "Retrieval-Augmented Generation (RAG)",
+      "LangChain",
+      "Speech-to-Text (STT)",
+      "Text-to-Speech (TTS)",
+    ],
   },
   {
-    title: "Databases",
+    title: "Databases & Caching",
     icon: Database,
-    skills: ["MySQL", "Redis"],
+    skills: ["MySQL", "Redis (Caching, Session Management)"],
   },
   {
-    title: "Tools & Platforms",
-    icon: Gauge,
-    skills: ["Git", "GitHub", "GitLab", "Render", "Linux"],
+    title: "Cloud & Deployment",
+    icon: Cloud,
+    skills: ["AWS (EC2, S3 – basic usage)", "Render (Deployment)", "Docker (Basic)"],
+  },
+  {
+    title: "DevOps & Tools",
+    icon: Wrench,
+    skills: [
+      "Git, GitHub, GitLab",
+      "CI/CD (GitHub Actions – basic)",
+      "Linux (Basic commands & server handling)",
+    ],
+  },
+  {
+    title: "System Design (Basic)",
+    icon: Network,
+    skills: ["Microservices Architecture (Basic)", "API Design Patterns", "Caching Strategies"],
+  },
+  {
+    title: "Frontend (Basic)",
+    icon: Layout,
+    skills: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
@@ -120,6 +149,14 @@ export const experienceItems = [
 ];
 
 export const projects = [
+  {
+    title: "Enterprise AI Voice & Chatbot Platform",
+    description:
+      "A centralized server platform for creating customizable prompt and RAG-based voicebots and chatbots. Features LiveKit SIP support, low-level latency optimization, multi-language/multi-voice capabilities, and built-in Quality Analysis for real-time interactions.",
+    stack: ["Python", "FastAPI", "LiveKit SIP", "RAG", "LLMs", "TTS/STT"],
+    github: "#",
+    demo: "#",
+  },
   {
     title: "AI Document Assistant",
     description:
