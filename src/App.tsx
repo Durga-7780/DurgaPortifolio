@@ -16,8 +16,8 @@ const App = () => {
           <span className="loading-ring" />
           <span className="loading-ring loading-ring-delay" />
           <div className="loading-text">
-            <p className="loading-kicker">Initializing portfolio</p>
-            <h1>AI systems online</h1>
+            <p className="loading-kicker">Welcome to my portfolio</p>
+            <h1>Python & Gen AI Developer</h1>
           </div>
         </div>
       </div>

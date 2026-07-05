@@ -61,7 +61,7 @@ export const skillCategories = [
   {
     title: "Programming",
     icon: Layers3,
-    skills: ["Python (Core, OOP, Async Programming)"],
+    skills: ["Python (Core, OOP, Async Programming)","Pandas (Data Manipulation & Analysis)"],
   },
   {
     title: "Backend Development",
@@ -85,13 +85,14 @@ export const skillCategories = [
       "LangChain",
       "Speech-to-Text (STT)",
       "Text-to-Speech (TTS)",
-      "Pandas (Data Manipulation & Analysis)",
+      "Crew AI",
+      "Agentic AI",
     ],
   },
   {
     title: "Databases & Caching",
     icon: Database,
-    skills: ["MySQL", "Redis (Caching, Session Management)"],
+    skills: ["MySQL", "MongoDB", "Redis (Caching, Session Management)"],
   },
   {
     title: "Cloud & Deployment",
@@ -122,7 +123,7 @@ export const experienceItems = [
   {
     company: "Deepija Telecom Private Limited",
     location: "Hyderabad, India",
-    duration: "July 2024 - Present",
+    duration: "Sept 2024 - Present",
     projects: [
       {
         title: "ConVox Platform Management System",
@@ -156,7 +157,16 @@ export const projects = [
     stack: ["Python", "FastAPI", "LiveKit SIP", "RAG", "LLMs", "TTS/STT"],
     github: "#",
     demo: "https://natvoice.store",
-    webpage: "https://natvoice.onrender.com",
+    webpage: "https://www.natvoice.store",
+  },
+  {
+    title: "AI Voice Chat (Hospital Website Chatbot)",
+    description:
+      "A website-based AI chatbot built for hospitals to assist patients with common queries and provide fast, accessible information through a simple web chat experience.",
+    stack: ["Python", "FastAPI", "LLMs", "Web Chat", "Healthcare"],
+    github: "#",
+    demo: "https://www.aivoicechat.site/",
+    webpage: "https://www.aivoicechat.site/",
   },
   {
     title: "AI Document Assistant",
