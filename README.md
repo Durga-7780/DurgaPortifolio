@@ -207,6 +207,8 @@ My long-term goal is to transform traditional surveillance into proactive AI sys
 - **Email:** durgapragada204@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/pragadadurgasaiprasad
 - **GitHub:** https://github.com/Durga-7780
+- **Portfolio:** https://durgasai-portfolio.onrender.com
+- **My-Product:** https://www.natvoice.store
 
 ---
 
