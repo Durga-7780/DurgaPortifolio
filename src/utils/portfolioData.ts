@@ -154,7 +154,7 @@ export const projects = [
     title: "Enterprise AI Voice & Chatbot Platform",
     description:
       "A centralized server platform for creating customizable prompt and RAG-based voicebots and chatbots. Features LiveKit SIP support, low-level latency optimization, multi-language/multi-voice capabilities, and built-in Quality Analysis for real-time interactions.",
-    stack: ["Python", "FastAPI", "LiveKit SIP", "RAG", "LLMs", "TTS/STT"],
+    stack: ["Python", "FastAPI", "LiveKit SIP", "RAG", "LLMs", "RAG Chatbot", "VoiceBot" , "Langchain", "CrewAi"],
     github: "#",
     demo: "https://natvoice.store",
     webpage: "https://www.natvoice.store",
