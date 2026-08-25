@@ -40,7 +40,9 @@ export const ExperienceSection = () => {
                         </div>
                       ))}
                     </div>
-                    <AIVoicebotWorkflow />
+                    {item.company === "Deepija Telecom Private Limited" && (
+    <AIVoicebotWorkflow />
+  )}
                   </div>
                 </div>
               </article>
