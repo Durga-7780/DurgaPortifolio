@@ -2,7 +2,7 @@
 
 ## Python & AI Engineer | FastAPI Developer | GenAI Developer
 
-I am a **Python & AI Engineer** with around **2 years of experience** in designing and building scalable backend systems, AI-powered applications, and real-time communication platforms.
+I am a **Python & AI Engineer** with around **2+ years of experience** in designing and building scalable backend systems, AI-powered applications, and real-time communication platforms.
 
 My primary expertise lies in **Python**, **FastAPI**, **Generative AI**, **LLM Integration**, **RAG**, and **real-time AI Voice/Chat solutions**. I enjoy building production-ready backend services that are fast, scalable, and easy to maintain.
 
@@ -71,8 +71,23 @@ Currently, I work on AI-driven communication platforms where I develop backend A
 ## 💼 Professional Experience
 
 ### Python & AI Engineer
+**Infosys Limited — Bangalore, India**
+
+**Associate Business Analyst | Python & Generative AI**
+*Sept 2026 – Present*
+
+* Developing backend applications and services using **Python**.
+* Building **Generative AI and LLM-powered solutions** for enterprise use cases.
+* Implementing **RAG (Retrieval-Augmented Generation)** pipelines, prompt engineering, and LLM orchestration.
+* Developing and integrating **REST APIs** for AI-powered applications.
+* Integrating **LLMs and AI models** with enterprise systems and external tools.
+* Working with **Azure, AWS, and GCP** cloud platforms.
+* Using **Docker, Git, and CI/CD pipelines** for application development and deployment.
+* Optimizing AI applications for **scalability, performance, reliability, and response quality**.
+* Collaborating with cross-functional teams to understand business requirements and deliver **scalable technical solutions**.
+
 **Deepija Telecom Private Limited**  
-**September 2024 – Present**
+**September 2024 – August 2026**
 
 ### ConVox Platform Management System
 - Developed scalable backend APIs and workflow services.
