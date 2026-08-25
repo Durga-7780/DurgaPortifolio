@@ -12,14 +12,6 @@ import {
 export const EnterpriseChatbotWorkflow = () => {
   return (
     <div className="enterprise-workflow">
-      <div className="enterprise-workflow-header">
-        <div>
-          <h4>Enterprise GenAI Chatbot</h4>
-          <p>RAG-powered conversational AI workflow</p>
-        </div>
-
-        <Sparkles size={20} />
-      </div>
 
       <div className="enterprise-workflow-flow">
 
@@ -37,7 +29,7 @@ export const EnterpriseChatbotWorkflow = () => {
 
         <div className="enterprise-arrow">↓</div>
 
-        {/* 2. Enterprise AI Chatbot */}
+        {/* 2. AI Chatbot */}
         <div className="enterprise-node">
           <div className="enterprise-node-icon">
             <MessageSquare size={17} />
