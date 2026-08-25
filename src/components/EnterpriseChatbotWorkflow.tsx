@@ -5,7 +5,6 @@ import {
   FileText,
   MessageSquare,
   Search,
-  Server,
   Sparkles,
   User,
 } from "lucide-react";
@@ -24,7 +23,7 @@ export const EnterpriseChatbotWorkflow = () => {
 
       <div className="enterprise-workflow-flow">
 
-        {/* User */}
+        {/* 1. User */}
         <div className="enterprise-node">
           <div className="enterprise-node-icon">
             <User size={17} />
@@ -32,41 +31,41 @@ export const EnterpriseChatbotWorkflow = () => {
 
           <div className="enterprise-node-content">
             <strong>User</strong>
-            <span>Query</span>
+            <span>Query / Conversation</span>
           </div>
         </div>
 
         <div className="enterprise-arrow">↓</div>
 
-        {/* API */}
-        <div className="enterprise-node">
-          <div className="enterprise-node-icon">
-            <Server size={17} />
-          </div>
-
-          <div className="enterprise-node-content">
-            <strong>Python / FastAPI</strong>
-            <span>REST API</span>
-          </div>
-        </div>
-
-        <div className="enterprise-arrow">↓</div>
-
-        {/* Chatbot */}
+        {/* 2. Enterprise AI Chatbot */}
         <div className="enterprise-node">
           <div className="enterprise-node-icon">
             <MessageSquare size={17} />
           </div>
 
           <div className="enterprise-node-content">
-            <strong>AI Chatbot</strong>
-            <span>Query Processing</span>
+            <strong>Enterprise AI Chatbot</strong>
+            <span>Conversation Handling</span>
           </div>
         </div>
 
         <div className="enterprise-arrow">↓</div>
 
-        {/* RAG */}
+        {/* 3. Query Processing */}
+        <div className="enterprise-node">
+          <div className="enterprise-node-icon">
+            <BrainCircuit size={17} />
+          </div>
+
+          <div className="enterprise-node-content">
+            <strong>Query Processing</strong>
+            <span>Intent &amp; Context</span>
+          </div>
+        </div>
+
+        <div className="enterprise-arrow">↓</div>
+
+        {/* 4. RAG Pipeline */}
         <div className="enterprise-node enterprise-node-highlight">
           <div className="enterprise-node-icon">
             <Search size={17} />
@@ -78,39 +77,23 @@ export const EnterpriseChatbotWorkflow = () => {
           </div>
         </div>
 
-        {/* Knowledge branch */}
-        <div className="enterprise-rag-branch">
+        <div className="enterprise-arrow">↓</div>
 
-          <div className="enterprise-branch-line" />
-
-          <div className="enterprise-node enterprise-node-small">
-            <div className="enterprise-node-icon">
-              <FileText size={16} />
-            </div>
-
-            <div className="enterprise-node-content">
-              <strong>Enterprise Data</strong>
-              <span>Documents / Knowledge</span>
-            </div>
+        {/* 5. Enterprise Knowledge Base */}
+        <div className="enterprise-node">
+          <div className="enterprise-node-icon">
+            <Database size={17} />
           </div>
 
-          <div className="enterprise-arrow">↓</div>
-
-          <div className="enterprise-node enterprise-node-small">
-            <div className="enterprise-node-icon">
-              <Database size={16} />
-            </div>
-
-            <div className="enterprise-node-content">
-              <strong>Vector Database</strong>
-              <span>Embeddings / Search</span>
-            </div>
+          <div className="enterprise-node-content">
+            <strong>Enterprise Knowledge Base</strong>
+            <span>Documents / Policies / Data</span>
           </div>
         </div>
 
         <div className="enterprise-arrow">↓</div>
 
-        {/* LLM */}
+        {/* 6. LLM */}
         <div className="enterprise-node enterprise-node-highlight">
           <div className="enterprise-node-icon">
             <BrainCircuit size={17} />
@@ -124,7 +107,7 @@ export const EnterpriseChatbotWorkflow = () => {
 
         <div className="enterprise-arrow">↓</div>
 
-        {/* Response */}
+        {/* 7. AI Response */}
         <div className="enterprise-node enterprise-node-success">
           <div className="enterprise-node-icon">
             <Bot size={17} />
@@ -132,7 +115,7 @@ export const EnterpriseChatbotWorkflow = () => {
 
           <div className="enterprise-node-content">
             <strong>AI Response</strong>
-            <span>Context-aware Answer</span>
+            <span>Context-Aware Answer</span>
           </div>
         </div>
 
