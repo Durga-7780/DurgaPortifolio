@@ -824,3 +824,253 @@ position:absolute;
 left:-2px;
 box-shadow:0 0 8px #22d3ee;
 }
+/* =========================================================
+   Enterprise GenAI Chatbot Workflow
+   ========================================================= */
+
+.enterprise-workflow {
+  width: 100%;
+  max-width: 360px;
+  padding: 18px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-sizing: border-box;
+}
+
+.enterprise-workflow-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.enterprise-workflow-header h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.enterprise-workflow-header p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+.enterprise-workflow-header svg {
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+
+.enterprise-workflow-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Individual node */
+
+.enterprise-node {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+
+  width: 100%;
+  min-height: 52px;
+  padding: 10px 12px;
+
+  box-sizing: border-box;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+
+  background: rgba(255, 255, 255, 0.035);
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.enterprise-node:hover {
+  transform: translateY(-2px);
+  border-color: rgba(79, 209, 255, 0.4);
+  background: rgba(255, 255, 255, 0.055);
+}
+
+/* Icon */
+
+.enterprise-node-icon {
+  width: 34px;
+  height: 34px;
+
+  min-width: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 9px;
+
+  background: rgba(79, 209, 255, 0.08);
+  border: 1px solid rgba(79, 209, 255, 0.15);
+}
+
+.enterprise-node-icon svg {
+  opacity: 0.9;
+}
+
+/* Text */
+
+.enterprise-node-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 2px;
+}
+
+.enterprise-node-content strong {
+  display: block;
+
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.35;
+
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.enterprise-node-content span {
+  display: block;
+
+  font-size: 11px;
+  line-height: 1.35;
+
+  opacity: 0.62;
+
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+/* Highlight nodes */
+
+.enterprise-node-highlight {
+  border-color: rgba(79, 209, 255, 0.22);
+  background: rgba(79, 209, 255, 0.045);
+}
+
+.enterprise-node-highlight .enterprise-node-icon {
+  background: rgba(79, 209, 255, 0.12);
+  border-color: rgba(79, 209, 255, 0.22);
+}
+
+/* Success node */
+
+.enterprise-node-success {
+  border-color: rgba(120, 220, 160, 0.2);
+  background: rgba(120, 220, 160, 0.045);
+}
+
+.enterprise-node-success .enterprise-node-icon {
+  background: rgba(120, 220, 160, 0.1);
+  border-color: rgba(120, 220, 160, 0.2);
+}
+
+/* Arrow */
+
+.enterprise-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 22px;
+
+  font-size: 17px;
+  line-height: 1;
+
+  opacity: 0.55;
+}
+
+/* RAG branch */
+
+.enterprise-rag-branch {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+  padding-left: 8px;
+  box-sizing: border-box;
+}
+
+.enterprise-branch-line {
+  position: absolute;
+
+  left: 24px;
+  top: -4px;
+  bottom: -4px;
+
+  width: 1px;
+
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Smaller nodes */
+
+.enterprise-node-small {
+  width: calc(100% - 16px);
+  min-height: 46px;
+
+  margin-left: 16px;
+
+  padding: 8px 10px;
+}
+
+.enterprise-node-small .enterprise-node-icon {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+}
+
+.enterprise-node-small .enterprise-node-content strong {
+  font-size: 12px;
+}
+
+.enterprise-node-small .enterprise-node-content span {
+  font-size: 10px;
+}
+
+/* =========================================================
+   Responsive
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .enterprise-workflow {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .enterprise-workflow {
+    padding: 14px;
+  }
+
+  .enterprise-node {
+    min-height: 50px;
+  }
+
+  .enterprise-workflow-header h4 {
+    font-size: 15px;
+  }
+}
