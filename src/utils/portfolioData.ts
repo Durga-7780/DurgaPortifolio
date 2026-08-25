@@ -46,13 +46,13 @@ export const portfolioData = {
   linkedin: "https://www.linkedin.com/in/pragadadurgasaiprasad",
   github: "https://github.com/Durga-7780",
   summary:
-    "Python & AI Engineer with around 2 years of experience building scalable backend systems and AI-driven applications. Proficient in Python (Core, OOP, Async) and FastAPI for developing high-performance REST APIs using microservices architecture.\nExperienced in LLM integration (OpenAI, Groq), RAG, LangChain, and real-time STT/TTS pipelines. Skilled in MySQL, Redis, and deployment using Docker, Linux, and AWS.",
+    "Python & AI Engineer with around 2+ years of experience building scalable backend systems and AI-driven applications. Proficient in Python (Core, OOP, Async) and FastAPI for developing high-performance REST APIs using microservices architecture.\nExperienced in LLM integration (OpenAI, Groq), RAG, LangChain, and real-time STT/TTS pipelines. Skilled in MySQL, Redis, and deployment using Docker, Linux, and AWS.",
   futureVision:
     "I am interested in building intelligent CCTV systems powered by AI that can automatically detect suspicious activities, theft attempts, or unusual behaviour in real time.\nTraditional CCTV systems only record footage and require manual monitoring, which often delays response to security incidents.\nMy vision is to develop a smart surveillance platform that analyzes live video streams using computer vision and AI models to identify events, generate alerts, and provide actionable insights. This approach can transform passive CCTV cameras into proactive security systems for retail stores, offices, and public spaces."
 };
 
 export const metrics = [
-  { label: "Experience", value: "2 Years" },
+  { label: "Experience", value: "2+ Years" },
   { label: "Focus", value: "AI Integration" },
   { label: "Core Stack", value: "Python, FastAPI" },
 ];
@@ -121,9 +121,29 @@ export const skillCategories = [
 
 export const experienceItems = [
   {
+  company: "Infosys Limited",
+  location: "Bangalore, India",
+  duration: "Sept 2026 – Present",
+  projects: [
+    {
+      title: "Associate Business Analyst — Python & GenAI",
+      points: [
+        "Developing applications and backend services using Python.",
+        "Building and integrating Generative AI and LLM-based solutions.",
+        "Working on RAG (Retrieval-Augmented Generation), prompt engineering, and model orchestration.",
+        "Developing REST APIs and backend services for AI-powered applications.",
+        "Integrating AI models with enterprise systems and external tools.",
+        "Working with ML/NLP concepts and cloud platforms including Azure, AWS, and GCP.",
+        "Using Docker, Git, and CI/CD practices for application development and deployment.",
+        "Optimizing AI applications for scalability, performance, and response quality.",
+      ],
+    },
+  ],
+},
+    {
     company: "Deepija Telecom Private Limited",
     location: "Hyderabad, India",
-    duration: "Sept 2024 - Present",
+    duration: "Sept 2024 - August 2026",
     projects: [
       {
         title: "ConVox Platform Management System",
