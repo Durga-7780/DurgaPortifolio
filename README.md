@@ -70,7 +70,6 @@ Currently, I work on AI-driven communication platforms where I develop backend A
 
 ## 💼 Professional Experience
 
-### Python & AI Engineer
 **Infosys Limited — Bangalore, India**
 
 **Associate Business Analyst | Python & Generative AI**
@@ -87,6 +86,7 @@ Currently, I work on AI-driven communication platforms where I develop backend A
 * Collaborating with cross-functional teams to understand business requirements and deliver **scalable technical solutions**.
 
 **Deepija Telecom Private Limited**  
+**Software Engineer**
 **September 2024 – August 2026**
 
 ### ConVox Platform Management System
