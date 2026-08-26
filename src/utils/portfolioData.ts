@@ -146,6 +146,7 @@ export const experienceItems = [
     duration: "Sept 2024 - August 2026",
     projects: [
       {
+        title: "Software Engineer",
         title: "ConVox Platform Management System",
         points: [
           "Developed backend services including Data Ingestion APIs and workflow orchestration.",
