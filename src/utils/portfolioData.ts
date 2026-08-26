@@ -145,9 +145,11 @@ export const experienceItems = [
     location: "Hyderabad, India",
     duration: "Sept 2024 - August 2026",
     projects: [
+	{
+		title: "Software Engineer"
+	},
       {
         title: "ConVox Platform Management System",
-        role: "Software Engineer",
 	points: [
           "Developed backend services including Data Ingestion APIs and workflow orchestration.",
           "Built MySQL reporting modules for user activity and system metrics.",
