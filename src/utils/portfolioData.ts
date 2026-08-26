@@ -146,7 +146,7 @@ export const experienceItems = [
     duration: "Sept 2024 - August 2026",
     projects: [
 	{
-		title: "Software Engineer",
+		title: "Software Engineer — Python & GenAI",
 		points: [],
 	},
       {
