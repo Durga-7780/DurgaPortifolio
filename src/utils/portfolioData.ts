@@ -146,9 +146,9 @@ export const experienceItems = [
     duration: "Sept 2024 - August 2026",
     projects: [
       {
-        title: "Software Engineer",
         title: "ConVox Platform Management System",
-        points: [
+        role: "Software Engineer",
+	points: [
           "Developed backend services including Data Ingestion APIs and workflow orchestration.",
           "Built MySQL reporting modules for user activity and system metrics.",
           "Improved performance by about 60% using Redis caching.",
