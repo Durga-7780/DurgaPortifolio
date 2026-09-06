@@ -181,7 +181,7 @@ export const projects = [
     stack: ["Python", "FastAPI", "LiveKit SIP", "RAG", "LLMs", "RAG Chatbot", "VoiceBot" , "Langchain", "CrewAi"],
     github: "#",
     demo: "https://natvoice.store",
-    webpage: "https://www.natvoice.store",
+    webpage: "https://www.natvoice.in",
   },
   {
     title: "AI Voice Chat (Hospital Website Chatbot)",
