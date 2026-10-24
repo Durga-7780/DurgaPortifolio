@@ -2,7 +2,7 @@ import { AIVoicebotWorkflow } from "@/components/AIVoicebotWorkflow";
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { experienceItems } from "@/utils/portfolioData";
-import { EnterpriseChatbotWorkflow } from "@/components/EnterpriseChatbotWorkflow";
+//import { EnterpriseChatbotWorkflow } from "@/components/EnterpriseChatbotWorkflow";
 
 export const ExperienceSection = () => {
   return (
@@ -41,9 +41,9 @@ export const ExperienceSection = () => {
                         </div>
                       ))}
                     </div>
-                    {item.company === "Infosys Limited" && (
+		    {/* {item.company === "Infosys Limited" && (
                       <EnterpriseChatbotWorkflow />
-                    )}
+                    )}*/}
                     {item.company === "Deepija Telecom Private Limited" && (
                     <AIVoicebotWorkflow />
                     )}
