@@ -130,26 +130,13 @@ An AI-powered hospital chatbot that helps patients by answering common healthcar
 
 ---
 
-### AI Document Assistant
+### WhatsApp Bot & Integration Platform
 
-Features include:
+WhatsApp bots for restaurants, healthcare, and real estate. A multi-tenant dashboard lets admins easily connect WhatsApp Business accounts and create custom message templates, with an OpenAI LLM generating n8n workflows for those templates.
 
-- PDF Processing
-- ChromaDB Vector Search
-- RAG-based Question Answering
-- Document Summarization
-- Follow-up Question Support
+**Tech Stack**
 
----
-
-### AI HR Attendance Management System
-
-An HR platform featuring:
-
-- Attendance Management
-- Employee Analytics
-- AI Assistant
-- Dashboard Reporting
+React • Python • FastAPI • SQLite • OpenAI LLM • n8n
 
 ---
 

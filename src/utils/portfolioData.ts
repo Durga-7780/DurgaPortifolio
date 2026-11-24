@@ -193,20 +193,12 @@ export const projects = [
     webpage: "https://www.aivoicechat.site/",
   },
   {
-    title: "AI Document Assistant",
+    title: "WhatsApp Bot & Integration Platform",
     description:
-      "AI-powered document analysis system using PDF text extraction, embeddings, ChromaDB vector search, and Groq-based RAG responses for summaries, Q&A, and follow-up insights.",
-    stack: ["Python", "Groq", "ChromaDB", "RAG", "PDF Processing"],
-    github: "https://huggingface.co/spaces/Durga-7780/AiChatbot/tree/main",
-    demo: "https://huggingface.co/spaces/Durga-7780/AiChatbot",
-  },
-  {
-    title: "AI HR Attendance Management System",
-    description:
-      "HR attendance platform with analytics, privacy-aware employee insights, and an AI assistant for operational queries, designed for deployment on Render.",
-    stack: ["Python", "FastAPI", "Render", "Analytics", "AI Assistant"],
-    github: "https://github.com/Durga-7780/Saigo",
-    demo: "https://saigo.onrender.com",
+      "WhatsApp bots for restaurants, healthcare, and real estate. A multi-tenant dashboard lets admins easily connect WhatsApp Business accounts and create custom message templates, with an OpenAI LLM generating n8n workflows for those templates.",
+    stack: ["React", "Python", "FastAPI", "SQLite", "OpenAI LLM", "n8n"],
+    github: "#",
+    demo: "#",
   },
 ];
 
